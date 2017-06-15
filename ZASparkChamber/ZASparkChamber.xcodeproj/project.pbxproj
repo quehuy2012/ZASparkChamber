@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8585C6C1EF0DC4E00B58F31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8585C6B1EF0DC4E00B58F31 /* main.m */; };
+		C8585C6F1EF0DC4E00B58F31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8585C6E1EF0DC4E00B58F31 /* AppDelegate.m */; };
+		C8585C721EF0DC4E00B58F31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8585C711EF0DC4E00B58F31 /* ViewController.m */; };
+		C8585C751EF0DC4E00B58F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8585C731EF0DC4E00B58F31 /* Main.storyboard */; };
+		C8585C771EF0DC4E00B58F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8585C761EF0DC4E00B58F31 /* Assets.xcassets */; };
+		C8585C7A1EF0DC4E00B58F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8585C781EF0DC4E00B58F31 /* LaunchScreen.storyboard */; };
+		C8585C851EF0DC4E00B58F31 /* ZASparkChamberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8585C841EF0DC4E00B58F31 /* ZASparkChamberTests.m */; };
+		C8A2C89B1EF0DD77006302C5 /* ZASparkEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C89A1EF0DD77006302C5 /* ZASparkEvent.m */; };
+		C8A2C89E1EF0EEC6006302C5 /* ZASparkDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C89D1EF0EEC6006302C5 /* ZASparkDetector.m */; };
+		C8A2C8A71EF0F3CB006302C5 /* UIView+ZASparkEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8A61EF0F3CB006302C5 /* UIView+ZASparkEvent.m */; };
+		C8A2C8AA1EF0F4DF006302C5 /* NSObject+ZASparkEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8A91EF0F4DF006302C5 /* NSObject+ZASparkEvent.m */; };
+		C8A2C8AD1EF11F8B006302C5 /* ZASparkTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8AC1EF11F8B006302C5 /* ZASparkTrace.m */; };
+		C8A2C8B21EF1286F006302C5 /* ZASparkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8B11EF1286F006302C5 /* ZASparkButton.m */; };
+		C8A2C8B51EF128D9006302C5 /* ZASparkCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8B41EF128D9006302C5 /* ZASparkCollectionViewCell.m */; };
+		C8A2C8B81EF12911006302C5 /* ZASparkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8B71EF12911006302C5 /* ZASparkTableViewCell.m */; };
+		C8A2C8BB1EF12959006302C5 /* ZASparkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8BA1EF12959006302C5 /* ZASparkViewController.m */; };
+		C8A2C8BF1EF12E7A006302C5 /* SparkTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8BE1EF12E7A006302C5 /* SparkTestTableViewController.m */; };
+		C8A2C8C41EF1414C006302C5 /* SparkTestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8C31EF1414C006302C5 /* SparkTestCollectionViewController.m */; };
+		C8A2C8C81EF14520006302C5 /* TextLabelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A2C8C71EF14520006302C5 /* TextLabelCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8585C811EF0DC4E00B58F31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8585C5F1EF0DC4E00B58F31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8585C661EF0DC4E00B58F31;
+			remoteInfo = ZASparkChamber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8585C671EF0DC4E00B58F31 /* ZASparkChamber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZASparkChamber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8585C6B1EF0DC4E00B58F31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8585C6D1EF0DC4E00B58F31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8585C6E1EF0DC4E00B58F31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8585C701EF0DC4E00B58F31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C8585C711EF0DC4E00B58F31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C8585C741EF0DC4E00B58F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8585C761EF0DC4E00B58F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8585C791EF0DC4E00B58F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8585C7B1EF0DC4E00B58F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8585C801EF0DC4E00B58F31 /* ZASparkChamberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZASparkChamberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8585C841EF0DC4E00B58F31 /* ZASparkChamberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZASparkChamberTests.m; sourceTree = "<group>"; };
+		C8585C861EF0DC4E00B58F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A2C8991EF0DD77006302C5 /* ZASparkEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASparkEvent.h; sourceTree = "<group>"; };
+		C8A2C89A1EF0DD77006302C5 /* ZASparkEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASparkEvent.m; sourceTree = "<group>"; };
+		C8A2C89C1EF0EEC6006302C5 /* ZASparkDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASparkDetector.h; sourceTree = "<group>"; };
+		C8A2C89D1EF0EEC6006302C5 /* ZASparkDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASparkDetector.m; sourceTree = "<group>"; };
+		C8A2C8A21EF0F05C006302C5 /* ZASparkEvent+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZASparkEvent+Internal.h"; sourceTree = "<group>"; };
+		C8A2C8A51EF0F3CB006302C5 /* UIView+ZASparkEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZASparkEvent.h"; sourceTree = "<group>"; };
+		C8A2C8A61EF0F3CB006302C5 /* UIView+ZASparkEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZASparkEvent.m"; sourceTree = "<group>"; };
+		C8A2C8A81EF0F4DF006302C5 /* NSObject+ZASparkEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZASparkEvent.h"; sourceTree = "<group>"; };
+		C8A2C8A91EF0F4DF006302C5 /* NSObject+ZASparkEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZASparkEvent.m"; sourceTree = "<group>"; };
+		C8A2C8AB1EF11F8B006302C5 /* ZASparkTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASparkTrace.h; sourceTree = "<group>"; };
+		C8A2C8AC1EF11F8B006302C5 /* ZASparkTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASparkTrace.m; sourceTree = "<group>"; };
+		C8A2C8AE1EF127FD006302C5 /* ZASparkChamber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZASparkChamber.h; sourceTree = "<group>"; };
+		C8A2C8B01EF1286F006302C5 /* ZASparkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASparkButton.h; sourceTree = "<group>"; };
+		C8A2C8B11EF1286F006302C5 /* ZASparkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASparkButton.m; sourceTree = "<group>"; };
+		C8A2C8B31EF128D9006302C5 /* ZASparkCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASparkCollectionViewCell.h; sourceTree = "<group>"; };
+		C8A2C8B41EF128D9006302C5 /* ZASparkCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASparkCollectionViewCell.m; sourceTree = "<group>"; };
+		C8A2C8B61EF12911006302C5 /* ZASparkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASparkTableViewCell.h; sourceTree = "<group>"; };
+		C8A2C8B71EF12911006302C5 /* ZASparkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASparkTableViewCell.m; sourceTree = "<group>"; };
+		C8A2C8B91EF12959006302C5 /* ZASparkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZASparkViewController.h; sourceTree = "<group>"; };
+		C8A2C8BA1EF12959006302C5 /* ZASparkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZASparkViewController.m; sourceTree = "<group>"; };
+		C8A2C8BD1EF12E7A006302C5 /* SparkTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparkTestTableViewController.h; path = ZASparkChamber/SparkTestTableViewController.h; sourceTree = "<group>"; };
+		C8A2C8BE1EF12E7A006302C5 /* SparkTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SparkTestTableViewController.m; path = ZASparkChamber/SparkTestTableViewController.m; sourceTree = "<group>"; };
+		C8A2C8C01EF12ECE006302C5 /* ZASparkKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "\U0010ZASparkKit.h"; sourceTree = "<group>"; };
+		C8A2C8C21EF1414C006302C5 /* SparkTestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparkTestCollectionViewController.h; path = ZASparkChamber/SparkTestCollectionViewController.h; sourceTree = "<group>"; };
+		C8A2C8C31EF1414C006302C5 /* SparkTestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SparkTestCollectionViewController.m; path = ZASparkChamber/SparkTestCollectionViewController.m; sourceTree = "<group>"; };
+		C8A2C8C61EF14520006302C5 /* TextLabelCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextLabelCollectionViewCell.h; path = ZASparkChamber/TextLabelCollectionViewCell.h; sourceTree = "<group>"; };
+		C8A2C8C71EF14520006302C5 /* TextLabelCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextLabelCollectionViewCell.m; path = ZASparkChamber/TextLabelCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8585C641EF0DC4E00B58F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8585C7D1EF0DC4E00B58F31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8585C5E1EF0DC4E00B58F31 = {
+			isa = PBXGroup;
+			children = (
+				C8585C691EF0DC4E00B58F31 /* ZASparkChamber */,
+				C8A2C8BC1EF12E50006302C5 /* ViewController */,
+				C8585C831EF0DC4E00B58F31 /* ZASparkChamberTests */,
+				C8585C681EF0DC4E00B58F31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8585C681EF0DC4E00B58F31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8585C671EF0DC4E00B58F31 /* ZASparkChamber.app */,
+				C8585C801EF0DC4E00B58F31 /* ZASparkChamberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8585C691EF0DC4E00B58F31 /* ZASparkChamber */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2C8981EF0DD60006302C5 /* Source */,
+				C8585C6D1EF0DC4E00B58F31 /* AppDelegate.h */,
+				C8585C6E1EF0DC4E00B58F31 /* AppDelegate.m */,
+				C8585C701EF0DC4E00B58F31 /* ViewController.h */,
+				C8585C711EF0DC4E00B58F31 /* ViewController.m */,
+				C8585C731EF0DC4E00B58F31 /* Main.storyboard */,
+				C8585C761EF0DC4E00B58F31 /* Assets.xcassets */,
+				C8585C781EF0DC4E00B58F31 /* LaunchScreen.storyboard */,
+				C8585C7B1EF0DC4E00B58F31 /* Info.plist */,
+				C8585C6A1EF0DC4E00B58F31 /* Supporting Files */,
+			);
+			path = ZASparkChamber;
+			sourceTree = "<group>";
+		};
+		C8585C6A1EF0DC4E00B58F31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8585C6B1EF0DC4E00B58F31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8585C831EF0DC4E00B58F31 /* ZASparkChamberTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8585C841EF0DC4E00B58F31 /* ZASparkChamberTests.m */,
+				C8585C861EF0DC4E00B58F31 /* Info.plist */,
+			);
+			path = ZASparkChamberTests;
+			sourceTree = "<group>";
+		};
+		C8A2C8981EF0DD60006302C5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2C8AF1EF12849006302C5 /* ZASparkKit */,
+				C8A2C8991EF0DD77006302C5 /* ZASparkEvent.h */,
+				C8A2C89A1EF0DD77006302C5 /* ZASparkEvent.m */,
+				C8A2C8A21EF0F05C006302C5 /* ZASparkEvent+Internal.h */,
+				C8A2C89C1EF0EEC6006302C5 /* ZASparkDetector.h */,
+				C8A2C89D1EF0EEC6006302C5 /* ZASparkDetector.m */,
+				C8A2C8A51EF0F3CB006302C5 /* UIView+ZASparkEvent.h */,
+				C8A2C8A61EF0F3CB006302C5 /* UIView+ZASparkEvent.m */,
+				C8A2C8A81EF0F4DF006302C5 /* NSObject+ZASparkEvent.h */,
+				C8A2C8A91EF0F4DF006302C5 /* NSObject+ZASparkEvent.m */,
+				C8A2C8AB1EF11F8B006302C5 /* ZASparkTrace.h */,
+				C8A2C8AC1EF11F8B006302C5 /* ZASparkTrace.m */,
+				C8A2C8AE1EF127FD006302C5 /* ZASparkChamber.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C8A2C8AF1EF12849006302C5 /* ZASparkKit */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2C8B01EF1286F006302C5 /* ZASparkButton.h */,
+				C8A2C8B11EF1286F006302C5 /* ZASparkButton.m */,
+				C8A2C8B31EF128D9006302C5 /* ZASparkCollectionViewCell.h */,
+				C8A2C8B41EF128D9006302C5 /* ZASparkCollectionViewCell.m */,
+				C8A2C8B61EF12911006302C5 /* ZASparkTableViewCell.h */,
+				C8A2C8B71EF12911006302C5 /* ZASparkTableViewCell.m */,
+				C8A2C8B91EF12959006302C5 /* ZASparkViewController.h */,
+				C8A2C8BA1EF12959006302C5 /* ZASparkViewController.m */,
+				C8A2C8C01EF12ECE006302C5 /* ZASparkKit.h */,
+			);
+			name = ZASparkKit;
+			sourceTree = "<group>";
+		};
+		C8A2C8BC1EF12E50006302C5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2C8C51EF144FD006302C5 /* Cell */,
+				C8A2C8BD1EF12E7A006302C5 /* SparkTestTableViewController.h */,
+				C8A2C8BE1EF12E7A006302C5 /* SparkTestTableViewController.m */,
+				C8A2C8C21EF1414C006302C5 /* SparkTestCollectionViewController.h */,
+				C8A2C8C31EF1414C006302C5 /* SparkTestCollectionViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		C8A2C8C51EF144FD006302C5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C8A2C8C61EF14520006302C5 /* TextLabelCollectionViewCell.h */,
+				C8A2C8C71EF14520006302C5 /* TextLabelCollectionViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8585C661EF0DC4E00B58F31 /* ZASparkChamber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8585C891EF0DC4E00B58F31 /* Build configuration list for PBXNativeTarget "ZASparkChamber" */;
+			buildPhases = (
+				C8585C631EF0DC4E00B58F31 /* Sources */,
+				C8585C641EF0DC4E00B58F31 /* Frameworks */,
+				C8585C651EF0DC4E00B58F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZASparkChamber;
+			productName = ZASparkChamber;
+			productReference = C8585C671EF0DC4E00B58F31 /* ZASparkChamber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8585C7F1EF0DC4E00B58F31 /* ZASparkChamberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8585C8C1EF0DC4E00B58F31 /* Build configuration list for PBXNativeTarget "ZASparkChamberTests" */;
+			buildPhases = (
+				C8585C7C1EF0DC4E00B58F31 /* Sources */,
+				C8585C7D1EF0DC4E00B58F31 /* Frameworks */,
+				C8585C7E1EF0DC4E00B58F31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8585C821EF0DC4E00B58F31 /* PBXTargetDependency */,
+			);
+			name = ZASparkChamberTests;
+			productName = ZASparkChamberTests;
+			productReference = C8585C801EF0DC4E00B58F31 /* ZASparkChamberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8585C5F1EF0DC4E00B58F31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CPU11713;
+				TargetAttributes = {
+					C8585C661EF0DC4E00B58F31 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2X825966A4;
+						ProvisioningStyle = Automatic;
+					};
+					C8585C7F1EF0DC4E00B58F31 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2X825966A4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C8585C661EF0DC4E00B58F31;
+					};
+				};
+			};
+			buildConfigurationList = C8585C621EF0DC4E00B58F31 /* Build configuration list for PBXProject "ZASparkChamber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8585C5E1EF0DC4E00B58F31;
+			productRefGroup = C8585C681EF0DC4E00B58F31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8585C661EF0DC4E00B58F31 /* ZASparkChamber */,
+				C8585C7F1EF0DC4E00B58F31 /* ZASparkChamberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8585C651EF0DC4E00B58F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8585C7A1EF0DC4E00B58F31 /* LaunchScreen.storyboard in Resources */,
+				C8585C771EF0DC4E00B58F31 /* Assets.xcassets in Resources */,
+				C8585C751EF0DC4E00B58F31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8585C7E1EF0DC4E00B58F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8585C631EF0DC4E00B58F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A2C8C81EF14520006302C5 /* TextLabelCollectionViewCell.m in Sources */,
+				C8A2C89E1EF0EEC6006302C5 /* ZASparkDetector.m in Sources */,
+				C8585C721EF0DC4E00B58F31 /* ViewController.m in Sources */,
+				C8A2C8C41EF1414C006302C5 /* SparkTestCollectionViewController.m in Sources */,
+				C8585C6F1EF0DC4E00B58F31 /* AppDelegate.m in Sources */,
+				C8585C6C1EF0DC4E00B58F31 /* main.m in Sources */,
+				C8A2C8AD1EF11F8B006302C5 /* ZASparkTrace.m in Sources */,
+				C8A2C8BB1EF12959006302C5 /* ZASparkViewController.m in Sources */,
+				C8A2C8A71EF0F3CB006302C5 /* UIView+ZASparkEvent.m in Sources */,
+				C8A2C8AA1EF0F4DF006302C5 /* NSObject+ZASparkEvent.m in Sources */,
+				C8A2C8BF1EF12E7A006302C5 /* SparkTestTableViewController.m in Sources */,
+				C8A2C8B51EF128D9006302C5 /* ZASparkCollectionViewCell.m in Sources */,
+				C8A2C8B21EF1286F006302C5 /* ZASparkButton.m in Sources */,
+				C8A2C89B1EF0DD77006302C5 /* ZASparkEvent.m in Sources */,
+				C8A2C8B81EF12911006302C5 /* ZASparkTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8585C7C1EF0DC4E00B58F31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8585C851EF0DC4E00B58F31 /* ZASparkChamberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8585C821EF0DC4E00B58F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8585C661EF0DC4E00B58F31 /* ZASparkChamber */;
+			targetProxy = C8585C811EF0DC4E00B58F31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8585C731EF0DC4E00B58F31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8585C741EF0DC4E00B58F31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8585C781EF0DC4E00B58F31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8585C791EF0DC4E00B58F31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8585C871EF0DC4E00B58F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8585C881EF0DC4E00B58F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8585C8A1EF0DC4E00B58F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2X825966A4;
+				INFOPLIST_FILE = ZASparkChamber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.Huy.ZASparkChamber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8585C8B1EF0DC4E00B58F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2X825966A4;
+				INFOPLIST_FILE = ZASparkChamber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.Huy.ZASparkChamber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8585C8D1EF0DC4E00B58F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2X825966A4;
+				INFOPLIST_FILE = ZASparkChamberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.Huy.ZASparkChamberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZASparkChamber.app/ZASparkChamber";
+			};
+			name = Debug;
+		};
+		C8585C8E1EF0DC4E00B58F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2X825966A4;
+				INFOPLIST_FILE = ZASparkChamberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.Huy.ZASparkChamberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZASparkChamber.app/ZASparkChamber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8585C621EF0DC4E00B58F31 /* Build configuration list for PBXProject "ZASparkChamber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8585C871EF0DC4E00B58F31 /* Debug */,
+				C8585C881EF0DC4E00B58F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8585C891EF0DC4E00B58F31 /* Build configuration list for PBXNativeTarget "ZASparkChamber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8585C8A1EF0DC4E00B58F31 /* Debug */,
+				C8585C8B1EF0DC4E00B58F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8585C8C1EF0DC4E00B58F31 /* Build configuration list for PBXNativeTarget "ZASparkChamberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8585C8D1EF0DC4E00B58F31 /* Debug */,
+				C8585C8E1EF0DC4E00B58F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8585C5F1EF0DC4E00B58F31 /* Project object */;
+}
